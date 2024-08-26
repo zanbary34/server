@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "attach",
+        "name": "Attach to Node",
+        "address": "localhost",
+        "port": 9227,
+        "localRoot": "${workspaceFolder}/src",
+        "remoteRoot": "/app/src"
+      }
+    ]
+  }
+  
